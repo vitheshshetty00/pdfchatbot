@@ -1,43 +1,38 @@
-
 # PDF Chatbot
 
-This is a chatbot application that allows you to chat with your PDF documents. It uses Streamlit as the web framework and integrates with various libraries for PDF processing, text splitting, embeddings, and conversational retrieval.
+Welcome to PDF Chatbot, an interactive chat application that allows you to engage in conversations with your PDF documents. This application leverages Streamlit as the web framework and integrates seamlessly with various libraries for PDF processing, text splitting, embeddings, and conversational retrieval.
 
 ## Installation
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/your-username/pdfchatbot.git
-   ```
+#### Clone the Repository:
 
-2. Install the required dependencies:
-   ```
+```bash
+git clone https://github.com/vitheshshetty00/pdfchatbot.git
+```
+#### Install dependencies using pip:
+   
+   ```bash  
    pip install -r requirements.txt
    ```
-
-3. Set up the environment variables:
-   - Create a `.env` file in the root directory of the project.
-   - Add the necessary environment variables in the `.env` file. Refer to the `.env.example` file for the required variables.
-
+#### Set Up Environment Variables:
+- Create a .env file in the project's root directory.
+- Add the necessary environment variables following the structure in .env.example.
 ## Usage
-
-1. Run the application:
-   ```
+To use this chatbot, you need to have python installed on your system and then follow these steps
+1. Run the main application file from the terminal or command prompt:
+   ```bash
    streamlit run main.py
    ```
-
-2. Upload your PDF documents using the file uploader in the sidebar.
-
-3. Click the "Process" button to extract text from the uploaded PDFs and generate embeddings.
-
-4. Ask questions in the chat input box and the chatbot will provide responses based on the content of the PDFs.
-
-5. You can download the chat history by clicking the "Download Chat History" button.
+2. Upload a PDF file using the file uploader widget.
+3. Wait for the PDF to be processed.
+4. Once the PDF is processed, you can start interacting with the chatbot.
+5. You can also download the processed PDF by clicking on the download button.
+## Features
+- `Dynamic Handling of PDF Sizes`: PDF Chatbot efficiently processes PDFs of any size, adapting to the content length.
+- `Responsive UI`: Streamlit provides a user-friendly interface, making it easy to navigate and interact with the application.
+- `Conversational Retrieval`: Engage in natural language conversations with the chatbot, utilizing embeddings for meaningful response
 
 ## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+**Enjoy chatting with your PDFs using PDF Chatbot!**
